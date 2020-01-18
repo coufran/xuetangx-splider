@@ -13,6 +13,7 @@ public class Splider {
     private static final String COOKIE = "csrftoken=GzhO3RfCiFCqScY66ac9ZawosYPcp943; login_type=P; sessionid=5l0vwd4dienop3pek285pd2e6orlkgpd; k=15215537";
 
     public static void main(String[] args) throws IOException {
+        // https://next.xuetangx.com/learn/THU12011000342/THU12011000342/968608/video/36799
         String classroomId = "968608";
         String productSign = "THU12011000342";
         new Splider().start(classroomId, productSign);
